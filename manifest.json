@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Remote Download Extension",
+    "version": "1.0",
+    "description": "An extension to download files to a remote device.",
+    "permissions": [
+        "downloads",
+        "storage",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
